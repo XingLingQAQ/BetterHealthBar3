@@ -22,6 +22,7 @@ allprojects {
     version = "3.3"
     repositories {
         mavenCentral()
+        mavenLocal()
         maven("https://repo.papermc.io/repository/maven-public/")
         maven("https://repo.opencollab.dev/main/")
         maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
