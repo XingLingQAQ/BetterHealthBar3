@@ -3,7 +3,7 @@ name: customfishing Build
 on:
   push:
     branches:
-      - main  # 主分支设置为 master
+      - master # 主分支设置为 master
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
