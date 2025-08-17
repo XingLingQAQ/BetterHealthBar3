@@ -71,7 +71,7 @@ jobs:
       with:
         name: Release V${{ steps.extract_version.outputs.version }}
         files: |  
-                target/*.jar
+                build/libs/*.jar
         tag_name: v${{ steps.extract_version.outputs.version }}
         generate_release_notes: true
         draft: false
